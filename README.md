@@ -16,7 +16,8 @@ Foodr is a web application that allows users to order food online with ease. Use
 ## Technologies Used
 
 - React Js
-- Vanilla Js
+- Vanilla CSS
+- Firebase
 
 ## Installation
 1. Clone the repository:
