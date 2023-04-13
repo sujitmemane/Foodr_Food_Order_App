@@ -1,5 +1,4 @@
-# Foodr_Food_Order_App
-🍔🍕🌮 Order food online with ease through our food order web app! 📱💻 Browse through a variety of options and enjoy delicious meals in just a few clicks. Convenient and hassle-free! 🙌🏼😋
+
 
 # Foodr Food Order WebApp
 🍔🍕🌮 [Foodr] - An online food ordering web app made with React and Vanilla CSS.
