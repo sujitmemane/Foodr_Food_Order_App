@@ -1,0 +1,26 @@
+.foodOrder__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top:0;
+    background: #ffffff;
+    width: 100%;
+    padding:1em 2em;
+}
+.nav-logo{
+    
+    margin:0 2em;
+    cursor: pointer;
+}
+.nav-logo h1{
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+color: #ec8b14;
+}
+
+.logo{
+    width:70px;
+    height: 50px;
+    object-fit: cover;
+}

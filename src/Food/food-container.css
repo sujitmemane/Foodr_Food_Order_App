@@ -1,0 +1,19 @@
+.cart-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 4em 0;
+}
+.heading{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2em;
+    margin-bottom: 0;
+    color: #392d2d;
+}
+
+.foodApp__cart-container{
+    margin-top:14em;
+}

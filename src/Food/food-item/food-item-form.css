@@ -1,0 +1,30 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-submit{
+    padding:0.8em 2em;
+ 
+        background-color: #2d2e32;
+        ;
+        border: none;
+        outline: none;
+        color: white;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        transition: all .23s;
+        
+}
+
+
+
+.btn-submit:hover,
+.btn-submit:active {
+    background-color: #110f0f;
+}

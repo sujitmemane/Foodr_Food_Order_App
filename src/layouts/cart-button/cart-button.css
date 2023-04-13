@@ -1,0 +1,57 @@
+.btn-cart {
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+   background:#ec8b14 ;
+    color: white;
+    padding: 0.5em 1.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+-webkit-box-shadow: 3px 4px 21px -7px rgba(26, 24, 26, 0.89);
+    -moz-box-shadow: 3px 4px 21px -7px rgba(26, 24, 26, 0.89);
+    box-shadow: 3px 4px 21px -7px rgba(26, 24, 26, 0.89);
+    
+}
+.cart{
+    font-size: 1rem;
+}
+.icon{
+width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 0.3rem;
+}
+.badge{
+padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+    margin-left: 1rem;
+    font-weight: bold;
+color: #ec8b14;
+   background: white;
+}
+
+.bump {
+    animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+    0% {
+        transform: scale(1);
+    }
+
+    10% {
+        transform: scale(0.9);
+    }
+
+    30% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
