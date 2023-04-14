@@ -1,46 +1,45 @@
-
-
-h2{
-font-size: 1rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #333;
-    padding: 10px;
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #333;
+  padding: 10px;
 }
-.cart-box{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding:2px;
+.cart-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
 }
-
-.cart-item{
-    border-bottom:2px solid #110f0f;
-    padding:1em 0;
+.price {
+  font-size: 1.2rem;
+}
+.cart-item {
+  border-bottom: 2px solid #110f0f;
+  padding: 1em 0;
 }
 .summary {
-    font-size:1.5rem;
-    font-weight: 700;
+  font-size: 1rem;
+  font-weight: 700;
 }
-.actions button{
-    padding:0.2em 1em;
-    margin-left: 1em;
-    margin-right: 0.2em;
-    background:transparent;
-    font-size:1rem;
-    font-weight: 700;
-   outline: none;
-   border:none;
+.actions button {
+  padding: 0.2em 1em;
+  margin-left: 1em;
+  margin-right: 0.2em;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 700;
+  outline: none;
+  border: none;
 
-   
-    border-radius: 2px;
-    cursor: pointer;
-    transition: all .23s;
-background-color: #110f0f;
-        color: #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.23s;
+  background-color: #110f0f;
+  color: #ffffff;
 }
 
-.actions button:hover{
+.actions button:hover {
   opacity: 0.9;
 }
