@@ -1,0 +1,73 @@
+.form {
+  margin: 1rem 0;
+  height: 19rem;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.control {
+  margin-bottom: 0.5em;
+}
+
+.control label {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+  display: block;
+  color: #110f0f;
+  text-transform: uppercase;
+}
+
+.control input {
+  font: inherit;
+  border: 3px solid #110f0f;
+  border-radius: 4px;
+  padding: 8px;
+  width: 17rem;
+  font-size: 1rem;
+  max-width: 100%;
+}
+
+.action-btn {
+  margin: 0.4em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.button {
+  padding: 0.8em 8em;
+
+  background-color: #110f0f;
+  margin: 0.7em 0;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  box-shadow: 1px 2px 11px -7px rgba(26, 24, 26, 0.89);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.err-text {
+  color: #ca3e51;
+  font-size: 0.9rem;
+  margin: 0.3em 0.2em;
+}
+.invalid label {
+  color: #ca3e51;
+}
+
+.invalid input {
+  border-color: #aa0b20;
+  background-color: #ffeff1;
+}
